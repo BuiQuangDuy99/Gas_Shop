@@ -1,4 +1,4 @@
-/*================================================
+﻿/*================================================
 [  Table of contents  ]
 ================================================
 
@@ -1149,11 +1149,11 @@
                 finalDate = $(this).data('countdown');
             if (!$this.hasClass('countdown-full-format')) {
                 $this.countdown(finalDate, function (event) {
-                    $this.html(event.strftime('<div class="single"><h1>%D</h1><p>Days</p></div> <div class="single"><h1>%H</h1><p>Hrs</p></div> <div class="single"><h1>%M</h1><p>Mins</p></div> <div class="single"><h1>%S</h1><p>Secs</p></div>'));
+                    $this.html(event.strftime('<div class="single"><h1>%D</h1><p>Ngày</p></div> <div class="single"><h1>%H</h1><p>Giờ</p></div> <div class="single"><h1>%M</h1><p>Phút</p></div> <div class="single"><h1>%S</h1><p>Giây</p></div>'));
                 });
             } else {
                 $this.countdown(finalDate, function (event) {
-                    $this.html(event.strftime('<div class="single"><h1>%Y</h1><p>Years</p></div> <div class="single"><h1>%m</h1><p>Months</p></div> <div class="single"><h1>%W</h1><p>Weeks</p></div> <div class="single"><h1>%d</h1><p>Days</p></div> <div class="single"><h1>%H</h1><p>Hrs</p></div> <div class="single"><h1>%M</h1><p>Mins</p></div> <div class="single"><h1>%S</h1><p>Secs</p></div>'));
+                    $this.html(event.strftime('<div class="single"><h1>%Y</h1><p>Năm</p></div> <div class="single"><h1>%m</h1><p>Tháng</p></div> <div class="single"><h1>%W</h1><p>Tuần</p></div> <div class="single"><h1>%d</h1><p>Ngày</p></div> <div class="single"><h1>%H</h1><p>Giờ</p></div> <div class="single"><h1>%M</h1><p>Phút</p></div> <div class="single"><h1>%S</h1><p>Giây</p></div>'));
                 });
             }
 

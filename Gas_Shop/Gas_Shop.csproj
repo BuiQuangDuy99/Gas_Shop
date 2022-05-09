@@ -224,6 +224,7 @@
     <Content Include="Assets\img\icons\11.png" />
     <Content Include="Assets\img\icons\12.png" />
     <Content Include="Assets\img\icons\car.png" />
+    <Content Include="Assets\img\icons\gas-emoji-1.png" />
     <Content Include="Assets\img\icons\icon-img\1.png" />
     <Content Include="Assets\img\icons\icon-img\11.png" />
     <Content Include="Assets\img\icons\icon-img\12.png" />
@@ -307,6 +308,9 @@
     <Content Include="Assets\img\slider\41.jpg" />
     <Content Include="Assets\img\slider\61.jpg" />
     <Content Include="Assets\img\slider\62.jpg" />
+    <Content Include="Assets\img\slider\Banner-1.jpg" />
+    <Content Include="Assets\img\slider\Banner-2-bg.png" />
+    <Content Include="Assets\img\slider\Banner-2.jpg" />
     <Content Include="Assets\img\team\1.jpg" />
     <Content Include="Assets\img\team\2.jpg" />
     <Content Include="Assets\img\team\3.jpg" />
