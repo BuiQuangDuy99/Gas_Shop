@@ -121,6 +121,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -284,6 +285,13 @@
     <Content Include="Assets\img\product\7.png" />
     <Content Include="Assets\img\product\8.png" />
     <Content Include="Assets\img\product\9.png" />
+    <Content Include="Assets\img\product\Bep-gas-doi-am-kinh-Sakura-SG-2665GB-2.jpg" />
+    <Content Include="Assets\img\product\Bep-gas-doi-am-kinh-Sakura-SG-2665GB-4.jpg" />
+    <Content Include="Assets\img\product\Bep-gas-doi-am-kinh-Sakura-SG-2665GB-5.jpg" />
+    <Content Include="Assets\img\product\bep-gas-doi-am-kinh-sakura-sg2665gb-1.jpg" />
+    <Content Include="Assets\img\product\gas_2.jpg" />
+    <Content Include="Assets\img\product\gas_3.jpg" />
+    <Content Include="Assets\img\product\gas_4.jpg" />
     <Content Include="Assets\img\service\1.jpg" />
     <Content Include="Assets\img\service\11.jpg" />
     <Content Include="Assets\img\service\2.jpg" />
@@ -387,6 +395,8 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Product\Index.cshtml" />
+    <Content Include="Views\Product\Card.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
