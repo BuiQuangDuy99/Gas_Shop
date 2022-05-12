@@ -17,5 +17,10 @@ namespace Gas_Shop.Controllers
         {
             return View();
         }
+
+        public ActionResult ShopGrid()
+        {
+            return View();
+        }
     }
 }

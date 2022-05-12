@@ -1,0 +1,801 @@
+﻿
+@{
+    ViewBag.Title = "ShopGrid";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- PRODUCT DETAILS AREA START -->
+<div class="ltn__product-area ltn__product-gutter mt-120 mb-120">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="ltn__shop-options">
+                    <ul>
+                        <li>
+                            <div class="ltn__grid-list-tab-menu ">
+                                <div class="nav">
+                                    <a class="active show" data-toggle="tab" href="#liton_product_grid"><i class="fas fa-th-large"></i></a>
+                                    <a data-toggle="tab" href="#liton_product_list"><i class="fas fa-list"></i></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="short-by text-center">
+                                <select class="nice-select">
+                                    <option>Sắp xếp: Mặc định</option>
+                                    <option>Sắp xếp theo tên</option>
+                                    <option>Sắp xếp theo giá: Từ thấp tới cao</option>
+                                    <option>Sắp xếp theo giá: Từ cao tới thấp</option>
+                                </select>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="showing-product-number text-right">
+                                <span>Hiển thị 8 trên 20 sản phẩm</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-content">
+                    <div class="tab-pane fade active show" id="liton_product_grid">
+                        <div class="ltn__product-tab-content-inner ltn__product-grid-view">
+                            <div class="row">
+                                <!-- ltn__product-item -->
+                                <div class="col-xl-3 col-lg-4 col-sm-6 col-6">
+                                    <div class="ltn__product-item ltn__product-item-3 text-center">
+                                        <div class="product-img">
+                                            <a href="product-details.html"><img src="~/Assets/img/slider/Banner-2-bg.png" alt="#"></a>
+                                            <div class="product-badge">
+                                                <ul>
+                                                    <li class="sale-badge">New</li>
+                                                </ul>
+                                            </div>
+                                            <div class="product-hover-action">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" title="Xem nhanh" data-toggle="modal" data-target="#quick_view_modal">
+                                                            <i class="far fa-eye"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="Thêm vào giỏ hàng" data-toggle="modal" data-target="#add_to_cart_modal">
+                                                            <i class="fas fa-shopping-cart"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="Thêm vào danh sách yêu thích" data-toggle="modal" data-target="#liton_wishlist_modal">
+                                                            <i class="far fa-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="product-ratting">
+                                                <ul>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <h2 class="product-title"><a href="/Product/Index">Combo bếp gas, bình gas Phương Mai</a></h2>
+                                            <div class="product-price">
+                                                <span>2.500.000 VNĐ</span>
+                                                <del>3.500.000 VNĐ</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ltn__product-item -->
+                                <div class="col-xl-3 col-lg-4 col-sm-6 col-6">
+                                    <div class="ltn__product-item ltn__product-item-3 text-center">
+                                        <div class="product-img">
+                                            <a href="product-details.html"><img src="~/Assets/img/slider/Banner-2-bg.png" alt="#"></a>
+                                            <div class="product-hover-action">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" title="Xem nhanh" data-toggle="modal" data-target="#quick_view_modal">
+                                                            <i class="far fa-eye"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="Thêm vào giỏ hàng" data-toggle="modal" data-target="#add_to_cart_modal">
+                                                            <i class="fas fa-shopping-cart"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="Thêm vào danh sách yêu thích" data-toggle="modal" data-target="#liton_wishlist_modal">
+                                                            <i class="far fa-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="product-ratting">
+                                                <ul>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <h2 class="product-title"><a href="/Product/Index">Combo bếp gas, bình gas Phương Mai</a></h2>
+                                            <div class="product-price">
+                                                <span>2.500.000 VNĐ</span>
+                                                <del>3.500.000 VNĐ</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ltn__product-item -->
+                                <div class="col-xl-3 col-lg-4 col-sm-6 col-6">
+                                    <div class="ltn__product-item ltn__product-item-3 text-center">
+                                        <div class="product-img">
+                                            <a href="product-details.html"><img src="~/Assets/img/slider/Banner-2-bg.png" alt="#"></a>
+                                            <div class="product-badge">
+                                                <ul>
+                                                    <li class="sale-badge">Hot</li>
+                                                </ul>
+                                            </div>
+                                            <div class="product-hover-action">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" title="Xem nhanh" data-toggle="modal" data-target="#quick_view_modal">
+                                                            <i class="far fa-eye"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="Thêm vào giỏ hàng" data-toggle="modal" data-target="#add_to_cart_modal">
+                                                            <i class="fas fa-shopping-cart"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="Thêm vào danh sách yêu thích" data-toggle="modal" data-target="#liton_wishlist_modal">
+                                                            <i class="far fa-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="product-ratting">
+                                                <ul>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <h2 class="product-title"><a href="/Product/Index">Combo bếp gas, bình gas Phương Mai</a></h2>
+                                            <div class="product-price">
+                                                <span>2.500.000 VNĐ</span>
+                                                <del>3.500.000 VNĐ</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ltn__product-item -->
+                                <div class="col-xl-3 col-lg-4 col-sm-6 col-6">
+                                    <div class="ltn__product-item ltn__product-item-3 text-center">
+                                        <div class="product-img">
+                                            <a href="product-details.html"><img src="~/Assets/img/slider/Banner-2-bg.png" alt="#"></a>
+                                            <div class="product-hover-action">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" title="Xem nhanh" data-toggle="modal" data-target="#quick_view_modal">
+                                                            <i class="far fa-eye"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="Thêm vào giỏ hàng" data-toggle="modal" data-target="#add_to_cart_modal">
+                                                            <i class="fas fa-shopping-cart"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="Thêm vào danh sách yêu thích" data-toggle="modal" data-target="#liton_wishlist_modal">
+                                                            <i class="far fa-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="product-ratting">
+                                                <ul>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <h2 class="product-title"><a href="/Product/Index">Combo bếp gas, bình gas Phương Mai</a></h2>
+                                            <div class="product-price">
+                                                <span>2.500.000 VNĐ</span>
+                                                <del>3.500.000 VNĐ</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ltn__product-item -->
+                                <div class="col-xl-3 col-lg-4 col-sm-6 col-6">
+                                    <div class="ltn__product-item ltn__product-item-3 text-center">
+                                        <div class="product-img">
+                                            <a href="product-details.html"><img src="~/Assets/img/slider/Banner-2-bg.png" alt="#"></a>
+                                            <div class="product-badge">
+                                                <ul>
+                                                    <li class="sale-badge">Sell -25%</li>
+                                                </ul>
+                                            </div>
+                                            <div class="product-hover-action">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" title="Xem nhanh" data-toggle="modal" data-target="#quick_view_modal">
+                                                            <i class="far fa-eye"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="Thêm vào giỏ hàng" data-toggle="modal" data-target="#add_to_cart_modal">
+                                                            <i class="fas fa-shopping-cart"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="Thêm vào danh sách yêu thích" data-toggle="modal" data-target="#liton_wishlist_modal">
+                                                            <i class="far fa-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="product-ratting">
+                                                <ul>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <h2 class="product-title"><a href="/Product/Index">Combo bếp gas, bình gas Phương Mai</a></h2>
+                                            <div class="product-price">
+                                                <span>2.500.000 VNĐ</span>
+                                                <del>3.500.000 VNĐ</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ltn__product-item -->
+                                <div class="col-xl-3 col-lg-4 col-sm-6 col-6">
+                                    <div class="ltn__product-item ltn__product-item-3 text-center">
+                                        <div class="product-img">
+                                            <a href="product-details.html"><img src="~/Assets/img/slider/Banner-2-bg.png" alt="#"></a>
+                                            <div class="product-hover-action">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" title="Xem nhanh" data-toggle="modal" data-target="#quick_view_modal">
+                                                            <i class="far fa-eye"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="Thêm vào giỏ hàng" data-toggle="modal" data-target="#add_to_cart_modal">
+                                                            <i class="fas fa-shopping-cart"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="Thêm vào danh sách yêu thích" data-toggle="modal" data-target="#liton_wishlist_modal">
+                                                            <i class="far fa-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="product-ratting">
+                                                <ul>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <h2 class="product-title"><a href="/Product/Index">Combo bếp gas, bình gas Phương Mai</a></h2>
+                                            <div class="product-price">
+                                                <span>2.500.000 VNĐ</span>
+                                                <del>3.500.000 VNĐ</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ltn__product-item -->
+                                <div class="col-xl-3 col-lg-4 col-sm-6 col-6">
+                                    <div class="ltn__product-item ltn__product-item-3 text-center">
+                                        <div class="product-img">
+                                            <a href="product-details.html"><img src="~/Assets/img/slider/Banner-2-bg.png" alt="#"></a>
+                                            <div class="product-hover-action">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" title="Xem nhanh" data-toggle="modal" data-target="#quick_view_modal">
+                                                            <i class="far fa-eye"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="Thêm vào giỏ hàng" data-toggle="modal" data-target="#add_to_cart_modal">
+                                                            <i class="fas fa-shopping-cart"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="Thêm vào danh sách yêu thích" data-toggle="modal" data-target="#liton_wishlist_modal">
+                                                            <i class="far fa-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="product-ratting">
+                                                <ul>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <h2 class="product-title"><a href="/Product/Index">Combo bếp gas, bình gas Phương Mai</a></h2>
+                                            <div class="product-price">
+                                                <span>2.500.000 VNĐ</span>
+                                                <del>3.500.000 VNĐ</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ltn__product-item -->
+                                <div class="col-xl-3 col-lg-4 col-sm-6 col-6">
+                                    <div class="ltn__product-item ltn__product-item-3 text-center">
+                                        <div class="product-img">
+                                            <a href="product-details.html"><img src="~/Assets/img/slider/Banner-2-bg.png" alt="#"></a>
+                                            <div class="product-badge">
+                                                <ul>
+                                                    <li class="sale-badge">New</li>
+                                                </ul>
+                                            </div>
+                                            <div class="product-hover-action">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" title="Xem nhanh" data-toggle="modal" data-target="#quick_view_modal">
+                                                            <i class="far fa-eye"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="Thêm vào giỏ hàng" data-toggle="modal" data-target="#add_to_cart_modal">
+                                                            <i class="fas fa-shopping-cart"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="Thêm vào danh sách yêu thích" data-toggle="modal" data-target="#liton_wishlist_modal">
+                                                            <i class="far fa-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="product-ratting">
+                                                <ul>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <h2 class="product-title"><a href="/Product/Index">Combo bếp gas, bình gas Phương Mai</a></h2>
+                                            <div class="product-price">
+                                                <span>2.500.000 VNĐ</span>
+                                                <del>3.500.000 VNĐ</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="liton_product_list">
+                        <div class="ltn__product-tab-content-inner ltn__product-list-view">
+                            <div class="row">
+                                <!-- ltn__product-item -->
+                                <div class="col-lg-12">
+                                    <div class="ltn__product-item ltn__product-item-3">
+                                        <div class="product-img">
+                                            <a href="product-details.html"><img src="~/Assets/img/slider/Banner-2-bg.png" alt="#"></a>
+                                            <div class="product-badge">
+                                                <ul>
+                                                    <li class="sale-badge">New</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <h2 class="product-title"><a href="/Product/Index">Combo bếp gas, bình gas Phương Mai</a></h2>
+                                            <div class="product-ratting">
+                                                <ul>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="product-price">
+                                                <span>2.500.000 VNĐ</span>
+                                                <del>3.500.000 VNĐ</del>
+                                            </div>
+                                            <div class="product-brief">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae asperiores sit odit nesciunt,  aliquid, deleniti non et ut dolorem!</p>
+                                            </div>
+                                            <div class="product-hover-action">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" title="Xem nhanh" data-toggle="modal" data-target="#quick_view_modal">
+                                                            <i class="far fa-eye"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="Thêm vào giỏ hàng" data-toggle="modal" data-target="#add_to_cart_modal">
+                                                            <i class="fas fa-shopping-cart"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="Thêm vào danh sách yêu thích" data-toggle="modal" data-target="#liton_wishlist_modal">
+                                                            <i class="far fa-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ltn__product-item -->
+                                <div class="col-lg-12">
+                                    <div class="ltn__product-item ltn__product-item-3">
+                                        <div class="product-img">
+                                            <a href="product-details.html"><img src="~/Assets/img/slider/Banner-2-bg.png" alt="#"></a>
+                                        </div>
+                                        <div class="product-info">
+                                            <h2 class="product-title"><a href="/Product/Index">Combo bếp gas, bình gas Phương Mai</a></h2>
+                                            <div class="product-ratting">
+                                                <ul>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="product-price">
+                                                <span>2.500.000 VNĐ</span>
+                                                <del>3.500.000 VNĐ</del>
+                                            </div>
+                                            <div class="product-brief">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae asperiores sit odit nesciunt,  aliquid, deleniti non et ut dolorem!</p>
+                                            </div>
+                                            <div class="product-hover-action">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" title="Xem nhanh" data-toggle="modal" data-target="#quick_view_modal">
+                                                            <i class="far fa-eye"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="Thêm vào giỏ hàng" data-toggle="modal" data-target="#add_to_cart_modal">
+                                                            <i class="fas fa-shopping-cart"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="Thêm vào danh sách yêu thích" data-toggle="modal" data-target="#liton_wishlist_modal">
+                                                            <i class="far fa-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ltn__product-item -->
+                                <div class="col-lg-12">
+                                    <div class="ltn__product-item ltn__product-item-3">
+                                        <div class="product-img">
+                                            <a href="product-details.html"><img src="~/Assets/img/slider/Banner-2-bg.png" alt="#"></a>
+                                            <div class="product-badge">
+                                                <ul>
+                                                    <li class="sale-badge">New</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <h2 class="product-title"><a href="/Product/Index">Combo bếp gas, bình gas Phương Mai</a></h2>
+                                            <div class="product-ratting">
+                                                <ul>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="product-price">
+                                                <span>2.500.000 VNĐ</span>
+                                                <del>3.500.000 VNĐ</del>
+                                            </div>
+                                            <div class="product-brief">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae asperiores sit odit nesciunt,  aliquid, deleniti non et ut dolorem!</p>
+                                            </div>
+                                            <div class="product-hover-action">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" title="Xem nhanh" data-toggle="modal" data-target="#quick_view_modal">
+                                                            <i class="far fa-eye"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="Thêm vào giỏ hàng" data-toggle="modal" data-target="#add_to_cart_modal">
+                                                            <i class="fas fa-shopping-cart"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="Thêm vào danh sách yêu thích" data-toggle="modal" data-target="#liton_wishlist_modal">
+                                                            <i class="far fa-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ltn__product-item -->
+                                <div class="col-lg-12">
+                                    <div class="ltn__product-item ltn__product-item-3">
+                                        <div class="product-img">
+                                            <a href="product-details.html"><img src="~/Assets/img/slider/Banner-2-bg.png" alt="#"></a>
+                                        </div>
+                                        <div class="product-info">
+                                            <h2 class="product-title"><a href="/Product/Index">Combo bếp gas, bình gas Phương Mai</a></h2>
+                                            <div class="product-ratting">
+                                                <ul>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="product-price">
+                                                <span>2.500.000 VNĐ</span>
+                                                <del>3.500.000 VNĐ</del>
+                                            </div>
+                                            <div class="product-brief">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae asperiores sit odit nesciunt,  aliquid, deleniti non et ut dolorem!</p>
+                                            </div>
+                                            <div class="product-hover-action">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" title="Xem nhanh" data-toggle="modal" data-target="#quick_view_modal">
+                                                            <i class="far fa-eye"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="Thêm vào giỏ hàng" data-toggle="modal" data-target="#add_to_cart_modal">
+                                                            <i class="fas fa-shopping-cart"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="Thêm vào danh sách yêu thích" data-toggle="modal" data-target="#liton_wishlist_modal">
+                                                            <i class="far fa-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ltn__product-item -->
+                                <div class="col-lg-12">
+                                    <div class="ltn__product-item ltn__product-item-3">
+                                        <div class="product-img">
+                                            <a href="product-details.html"><img src="~/Assets/img/slider/Banner-2-bg.png" alt="#"></a>
+                                            <div class="product-badge">
+                                                <ul>
+                                                    <li class="sale-badge">Hot</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <h2 class="product-title"><a href="/Product/Index">Combo bếp gas, bình gas Phương Mai</a></h2>
+                                            <div class="product-ratting">
+                                                <ul>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="product-price">
+                                                <span>2.500.000 VNĐ</span>
+                                                <del>3.500.000 VNĐ</del>
+                                            </div>
+                                            <div class="product-brief">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae asperiores sit odit nesciunt,  aliquid, deleniti non et ut dolorem!</p>
+                                            </div>
+                                            <div class="product-hover-action">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" title="Xem nhanh" data-toggle="modal" data-target="#quick_view_modal">
+                                                            <i class="far fa-eye"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="Thêm vào giỏ hàng" data-toggle="modal" data-target="#add_to_cart_modal">
+                                                            <i class="fas fa-shopping-cart"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="Thêm vào danh sách yêu thích" data-toggle="modal" data-target="#liton_wishlist_modal">
+                                                            <i class="far fa-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- ltn__product-item -->
+                                <div class="col-lg-12">
+                                    <div class="ltn__product-item ltn__product-item-3">
+                                        <div class="product-img">
+                                            <a href="product-details.html"><img src="~/Assets/img/slider/Banner-2-bg.png" alt="#"></a>
+                                            <div class="product-badge">
+                                                <ul>
+                                                    <li class="sale-badge">New</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                            <h2 class="product-title"><a href="/Product/Index">Combo bếp gas, bình gas Phương Mai</a></h2>
+                                            <div class="product-ratting">
+                                                <ul>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="product-price">
+                                                <span>2.500.000 VNĐ</span>
+                                                <del>3.500.000 VNĐ</del>
+                                            </div>
+                                            <div class="product-brief">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae asperiores sit odit nesciunt,  aliquid, deleniti non et ut dolorem!</p>
+                                            </div>
+                                            <div class="product-hover-action">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" title="Xem nhanh" data-toggle="modal" data-target="#quick_view_modal">
+                                                            <i class="far fa-eye"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="Thêm vào giỏ hàng" data-toggle="modal" data-target="#add_to_cart_modal">
+                                                            <i class="fas fa-shopping-cart"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="Thêm vào danh sách yêu thích" data-toggle="modal" data-target="#liton_wishlist_modal">
+                                                            <i class="far fa-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--  -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ltn__pagination-area text-center">
+                    <div class="ltn__pagination">
+                        <ul>
+                            <li><a href="#"><i class="fas fa-angle-double-left"></i></a></li>
+                            <li><a href="#">1</a></li>
+                            <li class="active"><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">...</a></li>
+                            <li><a href="#">10</a></li>
+                            <li><a href="#"><i class="fas fa-angle-double-right"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- PRODUCT DETAILS AREA END -->
+<!-- FEATURE AREA START ( Feature - 3) -->
+<div class="ltn__feature-area before-bg-bottom-2 mb--30--- plr--5">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="ltn__feature-item-box-wrap ltn__border-between-column white-bg">
+                    <div class="row">
+                        <div class="col-xl-3 col-md-6 col-12">
+                            <div class="ltn__feature-item ltn__feature-item-8">
+                                <div class="ltn__feature-icon">
+                                    <img src="img/icons/icon-img/11.png" alt="#">
+                                </div>
+                                <div class="ltn__feature-info">
+                                    <h4>Curated Products</h4>
+                                    <p>
+                                        Provide Curated Products for
+                                        all product over $100
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-6 col-12">
+                            <div class="ltn__feature-item ltn__feature-item-8">
+                                <div class="ltn__feature-icon">
+                                    <img src="img/icons/icon-img/12.png" alt="#">
+                                </div>
+                                <div class="ltn__feature-info">
+                                    <h4>Handmade</h4>
+                                    <p>
+                                        We ensure the product quality
+                                        that is our main goal
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-6 col-12">
+                            <div class="ltn__feature-item ltn__feature-item-8">
+                                <div class="ltn__feature-icon">
+                                    <img src="img/icons/icon-img/13.png" alt="#">
+                                </div>
+                                <div class="ltn__feature-info">
+                                    <h4>Natural Food</h4>
+                                    <p>
+                                        Return product within 3 days
+                                        for any product you buy
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-6 col-12">
+                            <div class="ltn__feature-item ltn__feature-item-8">
+                                <div class="ltn__feature-icon">
+                                    <img src="img/icons/icon-img/14.png" alt="#">
+                                </div>
+                                <div class="ltn__feature-info">
+                                    <h4>Free home delivery</h4>
+                                    <p>
+                                        We ensure the product quality
+                                        that you can trust easily
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- FEATURE AREA END -->
